@@ -1,3 +1,6 @@
+section{
+    min-height: 100vh;
+}
 /*Carousel Edit*/
 .carousel-inner{
     height: 100vh !important;
@@ -17,7 +20,6 @@
 }
 .section-title{
     border-bottom: 3px solid black;
-    margin-top: 1em;
     padding-bottom: 0.3em;
 }
 #about p{
@@ -26,9 +28,10 @@
 
 /* Editing Navbar */
 .navbar{
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 193, 7, 0.5);
 }
 .nav-item{
+    font-weight: 600;
 }
 .navbar-brand{
     font-weight: 600;
@@ -36,39 +39,21 @@
     font-size: 1.5em;
 }
 
-/* Mouse Scroll Animation */
-.scroll-downs {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    
-    width :34px;
-    height: 55px;
-  }
-  .mousey {
-    width: 3px;
-    padding: 10px 15px;
-    height: 35px;
-    border: 2px solid #fff;
-    border-radius: 25px;
-    opacity: 0.75;
-    box-sizing: content-box;
-  }
-  .scroller {
-    width: 3px;
-    height: 10px;
-    border-radius: 25%;
-    background-color: #fff;
-    animation-name: scroll;
-    animation-duration: 2.2s;
-    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
-    animation-iteration-count: infinite;
-  }
-  @keyframes scroll {
-    0% { opacity: 0; }
-    10% { transform: translateY(0); opacity: 1; }
-    100% { transform: translateY(15px); opacity: 0;}
-  }
+/*Catalogue Section*/
+#catalogue{
+    background: url("../img/slide-4.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.category-1{
+    margin-top: 2.5em;
+    text-align: center;
+    color:#ffc107;
+    font-family: serif;
+}
+.category-2{
+    margin-top: 2.5em;
+    text-align: center;
+/*    color:#ffc107;*/
+    font-family: serif;
+}
